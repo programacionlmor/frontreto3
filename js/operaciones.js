@@ -45,7 +45,7 @@ function consultarId() {
 
                     success      :  function(json){
                                         $("#idDivConsulta").empty();
-                                        $("#idDivConsulta").append(json.codigoP + "  " +json.nombre + " ");                        
+                                        $("#idDivConsulta").append(json.codigoP + "  " +json.nombreP + " ");                        
                                     },
                     error        :   function(xhr,status){
                                         console.log(xhr)
